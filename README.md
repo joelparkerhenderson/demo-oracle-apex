@@ -8,6 +8,8 @@ Demonstration of:
 
 * [Oracle Database](https://www.oracle.com/database/)
 
+* [Oracle Cloud Infrastructure](https://www.oracle.com/cloud/)
+
 * [Oracle VM VirtualBox](https://www.virtualbox.org/)
 
 
@@ -73,3 +75,18 @@ TODO
 
 TODO
 
+
+## Get Oracle Cloud
+
+Sign up with Oracle Cloud:<br>
+https://signup.cloud.oracle.com/
+
+The sign up provides a free trial and also some always-free resources.
+
+The sign up process requires a credit card.
+
+The sign up offers multi-factor authentication such as via the Oracle Mobile App or FIDO.
+
+After sign up, Oracle should send you a confirmation email such as "You have been associated to a cloud subscription and granted access to a Support Identifier for Oracle Support."
+
+Oracle Cloud should look something like this:<br><img src="oracle-cloud-screenshot.png">
