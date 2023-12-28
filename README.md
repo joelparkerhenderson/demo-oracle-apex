@@ -10,7 +10,10 @@ Demonstration of:
 
 * [Oracle Cloud Infrastructure](https://www.oracle.com/cloud/)
 
+* [Oracle Support](https://support.oracle.com/)
+
 * [Oracle VM VirtualBox](https://www.virtualbox.org/)
+
 
 
 ## Purpose
@@ -87,6 +90,20 @@ The sign up process requires a credit card.
 
 The sign up offers multi-factor authentication such as via the Oracle Mobile App or FIDO.
 
-After sign up, Oracle should send you a confirmation email such as "You have been associated to a cloud subscription and granted access to a Support Identifier for Oracle Support."
+After sign up, Oracle should send you a confirmation email such as "You have been associated to a cloud subscription."
 
-Oracle Cloud should look something like this:<br><img src="oracle-cloud-screenshot.png">
+Oracle Cloud should look something like this:
+
+<img src="oracle-cloud-screenshot.png">
+
+
+## Get Oracle Support
+
+Sign up with Oracle Support:<br>
+https://support.oracle.com/
+
+After you sign up, Oracle should send you a confirmation email such as "You have been granted access to a Support Identifier for Oracle Support."
+
+Oracle Support should show a "Settings" tab something like this:
+
+<img src="oracle-support-settings-screenshot.png">
