@@ -1,4 +1,4 @@
-# Oracle Database 19c Aarch64
+# Oracle Database 19c Aarch64 + Oracle Linux 8
 
 
 ## Install developer release
@@ -89,46 +89,46 @@ unzip /tmp/db_home.zip
 
 ### Step 1
 
-<img loading="lazy" src="assets/images/screenshots/oracle-database-19c-installer/step-1.png" alt="Screenshots / Oracle Database 19c installer / Step 1">
+<img loading="lazy" src="/assets/images/screenshots/oracle-database-19c-installer/step-1.png" alt="Screenshots / Oracle Database 19c installer / Step 1">
 
 
 ### Step 2
 
-<img loading="lazy" src="assets/images/screenshots/oracle-database-19c-installer/step-2.png" alt="Screenshots / Oracle Database 19c installer / Step 2">
+<img loading="lazy" src="/assets/images/screenshots/oracle-database-19c-installer/step-2.png" alt="Screenshots / Oracle Database 19c installer / Step 2">
 
 
 ### Step 3
 
-<img loading="lazy" src="assets/images/screenshots/oracle-database-19c-installer/step-3.png" alt="Screenshots / Oracle Database 19c installer / Step 3">
+<img loading="lazy" src="/assets/images/screenshots/oracle-database-19c-installer/step-3.png" alt="Screenshots / Oracle Database 19c installer / Step 3">
 
 
 ### Step 4
 
-<img loading="lazy" src="assets/images/screenshots/oracle-database-19c-installer/step-4.png" alt="Screenshots / Oracle Database 19c installer / Step 4">
+<img loading="lazy" src="/assets/images/screenshots/oracle-database-19c-installer/step-4.png" alt="Screenshots / Oracle Database 19c installer / Step 4">
 
 
 ### Step 5
 
-<img loading="lazy" src="assets/images/screenshots/oracle-database-19c-installer/step-5.png" alt="Screenshots / Oracle Database 19c installer / Step 5">
+<img loading="lazy" src="/assets/images/screenshots/oracle-database-19c-installer/step-5.png" alt="Screenshots / Oracle Database 19c installer / Step 5">
 
 
 ### Step 6
 
-<img loading="lazy" src="assets/images/screenshots/oracle-database-19c-installer/step-6.png" alt="Screenshots / Oracle Database 19c installer / Step 6">
+<img loading="lazy" src="/assets/images/screenshots/oracle-database-19c-installer/step-6.png" alt="Screenshots / Oracle Database 19c installer / Step 6">
 
 
 ### Step 7
 
-<img loading="lazy" src="assets/images/screenshots/oracle-database-19c-installer/step-7.png" alt="Screenshots / Oracle Database 19c installer / Step 7">
+<img loading="lazy" src="/assets/images/screenshots/oracle-database-19c-installer/step-7.png" alt="Screenshots / Oracle Database 19c installer / Step 7">
 
 
 ### Step 8
 
-<img loading="lazy" src="assets/images/screenshots/oracle-database-19c-installer/step-8.png" alt="Screenshots / Oracle Database 19c installer / Step 8">
+<img loading="lazy" src="/assets/images/screenshots/oracle-database-19c-installer/step-8.png" alt="Screenshots / Oracle Database 19c installer / Step 8">
 
 
 ### Step 9
 
-<img loading="lazy" src="assets/images/screenshots/oracle-database-19c-installer/step-9.png" alt="Screenshots / Oracle Database 19c installer / Step 9">
+<img loading="lazy" src="/assets/images/screenshots/oracle-database-19c-installer/step-9.png" alt="Screenshots / Oracle Database 19c installer / Step 9">
 
 https://localhost:5500/em

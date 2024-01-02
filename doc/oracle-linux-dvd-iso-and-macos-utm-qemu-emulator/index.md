@@ -4,7 +4,7 @@ For macOS Arm as of 2024-01-01 with UTM QEMU:
 
 1. Get [Oracle Linux DVD ISO](../oracle-linux-dvd-iso/)
 
-2. Get [UTM]()../utm-qemu/)
+2. Get [UTM](../utm-qemu/)
 
 3. Create a new UTM VM by using the Oracle Linux DVD ISO.
 
@@ -130,7 +130,7 @@ dnf --assumeyes autoremove
 
 ### Get Oracle Database 
 
-Get Oracle database: [Oracle Database 19c Aarch](../oracle-database-19c-aarch/)
+Get Oracle database: [Oracle Database 19c Aarch + Oracle Linux 8](../oracle-database-19c-aarch-and-oracle-linux-8/)
 
 
 ### UTM helpful commands
