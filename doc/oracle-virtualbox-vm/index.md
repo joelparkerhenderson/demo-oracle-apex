@@ -1,6 +1,6 @@
-# Oracle VirtualBox VM
+# Oracle VM VirtualBox
 
-Oracle VirtualBox VM is a virtual machine runner.
+Oracle VM VirtualBox is a virtual machine runner.
 
 For most systems:
 

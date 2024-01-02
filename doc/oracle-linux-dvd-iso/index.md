@@ -1,5 +1,13 @@
 # Oracle Linux DVD ISO
 
+Get it:
+
+1. Browse downloads:<br>https://yum.oracle.com/oracle-linux-isos.html
+
+2. Look for the download that you want for your own system. 
+
+3. Download it.
+
 For macOS Arm as of 2024-01-01:
 
 1. Browse downloads:<br>https://yum.oracle.com/oracle-linux-isos.html

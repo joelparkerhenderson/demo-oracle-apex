@@ -1,5 +1,9 @@
 # Oracle Linux DVD ISO + Oracle VM VirtualBox
 
+Get [Oracle Linux DVD ISO](../oracle-linux-dvd-iso/)
+
+Get [Oracle VM VirtualBox](../oracle-vm-virtualbox/)
+
 For macOS Arm as of 2024-01-01:
 
 1. Browse downloads:<br>https://yum.oracle.com/oracle-linux-isos.html
