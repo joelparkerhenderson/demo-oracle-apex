@@ -98,7 +98,7 @@ To get Oracle containers:
 1. Go to Oracle Container Registry:<br>https://container-registry.oracle.com/
 
 2. Click the icon "Database". Look for the link that says "[free](https://container-registry.oracle.com/ords/f?p=113:4:114670892109671:::4:P4_REPOSITORY,AI_REPOSITORY,AI_REPOSITORY_NAME,P4_REPOSITORY_NAME,P4_EULA_ID,P4_BUSINESS_AREA_ID:1863,1863,Oracle%20Database%20Free,Oracle%20Database%20Free,1,0&cs=3tASddKV6PHe_DB5sOqUmUWkFKKS3JDuR_aY0fC10pjeYUgvx7fc1A9Zueh01JSgD68Ngk145m1fJWUpzNWFnBg
-)"
+)".
 
 3. Download and launch.
 
@@ -191,6 +191,8 @@ When the process completes:
 
 <img loading="lazy" src="assets/images/screenshots/apex-setup/create-workspace.png" alt="Screenshots / APEX setup / Create Workspace">
 
+* Click "New Schema".
+  
 * Workspace Name. Enter a name for the workspace. A workspace is a shared work area where multiple developers can build applications. For this demo, we type "demo-workspace-name".
 
 * Workspace Username. Enter the username of the workspace administrator. For this demo, we type "demo-workspace-username". 
@@ -200,4 +202,4 @@ When the process completes:
 
 ### APEX setup: Administration Services
 
-<img loading="lazy" src="assets/images/screenshots/apex-setup/create-workspace.png" alt="Screenshots / APEX setup / Administration Services">
+<img loading="lazy" src="assets/images/screenshots/apex-setup/administration-services.png" alt="Screenshots / APEX setup / Administration Services">
