@@ -74,6 +74,12 @@ Create network settings:
 
 * Click "Done".
 
+Eventually you should see a progress bar with the setup process.
+
+After the setup, you should see a message such as "Oracle Linux installation is successful". 
+
+Click the button "Reboot System".
+
 
 ### Reboot
 
@@ -83,8 +89,50 @@ After the VM is created:
 
 2. Eject the ISO by clicking the top right area icon that looks like a CD or DVD, with the tool tip "Drive image options".
 
-3. Reboot. You should see a typical sign in screen.
+3. Type "c" to get a command prompt. Type `reboot` then press return.
+   
 
-UTM helpful commands:
+### License
 
-* If you want to send special keys to the VM, then turn on mouse capture. Later, use Control+Option to release mouse capture
+After the reboot:
+
+1. You should see a license choice. 
+
+2. Accept the license.
+   
+3. Click "FINISH CONFIGURATION".
+
+
+### Login
+
+After the configuration:
+
+1. You should see a typical Linux login screen.
+
+2. Log in with username "user" and password "changethispassword" (or whatever you set up earlier).
+   
+3. Launch a terminal.
+
+Become root:
+
+```sh
+su
+```
+
+Update the system:
+
+```
+dnf --assumeyes update
+dnf --assumeyes upgrade
+dnf --assumeyes autoremove
+```
+
+
+### Get Oracle Database 
+
+Get Oracle database: [Oracle Database 19c Aarch](../oracle-database-19c-aarch/)
+
+
+### UTM helpful commands
+
+If you want to send special keys to the VM, then turn on mouse capture. Later, use Control+Option to release mouse capture
