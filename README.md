@@ -18,7 +18,7 @@ Demonstration of:
 
 ## Purpose
 
-The purpose of this repository is to demonstrate the Oracle technology stack for low-code application programming. 
+The purpose of this repository is to demonstrate the Oracle APEX technology stack for low-code application programming. APEX comes bundled with services such as APEX Application Development (APEX Service) and Oracle Autonomous Database Serverless (ADBS).
 
 This repository is free open source. 
 
@@ -27,22 +27,48 @@ Feedback welcome. Issues welcome. Merges welcome.
 
 ## Glossary
 
-Oracle APEX: Abbreviation of "Oracle Appication Experience".
+Oracle APEX: Abbreviation of "Oracle Application Experience".
 
 AArch64: The official name for Arm's 64-bit instruction set architecture. A.k.a. arm64.
 
 dnf: Abbreviation of "Dandified YUM"; dnf is an improved version of the YUM package manager.
 
+OCI: Oracle Cloud Infrastructure.
+
+OCID: Oracle Cloud Identifier.
+
 OVA: Open Virtual Appliance.
 
 QEMU: An open source machine emulator and virtualizer.
 
+VCN: Virtual Cloud Network
+
 VM: virtual machine
 
+
+## Introductions
+
+Introductions to APEX:
+
+* [Get Started with Oracle APEX in Oracle Cloud Infrastructure](https://blogs.oracle.com/apex/post/get-started-with-oracle-apex-in-oracle-cloud-infrastructure)
+
+* [Deploy a low-code app on Autonomous Database using APEX](https://cloud.oracle.com/resourcemanager/quickstarts?solution-name=apex)
+
+Introductions to related topics:
+
+* [Get Started with Autonomous Database](https://blogs.oracle.com/database/post/welcome-to-autonomous-database)
+
+
+* [Oracle LiveLabs](https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/home)
+  
 
 ## Options
 
 There are options for how to get Oracle APEX ready.
+
+Options for using Oracle Cloud: 
+
+* [Free APEX Workspace](https://apex.oracle.com/en/learn/getting-started/)
 
 Options for emulation/virtualization:
 
@@ -77,22 +103,6 @@ To get Oracle containers:
 3. Download and launch.
 
 
-## Create Oracle Linux VM via VirtualBox
-
-For prebuilt Oracle Database App Development VM:
-
-1. Go to "Oracle Database 23c Free VirtualBox Appliance":<br>https://www.oracle.com/database/technologies/databaseappdev-vm.html
-
-2. Look for the link "[Oracle DB Developer VM](https://download.oracle.com/otn_software/virtualbox/dd/Oracle_Database_23c_Free_Developer_Appliance.ova)"
-
-3. Download and install.
-
-
-## Generate Oracle Linux for VirtualBox
-
-TODO
-
-
 ## Get Oracle Database
 
 To install via dnf:
@@ -101,12 +111,6 @@ To install via dnf:
 dnf install -y oracle-database-free*
 /etc/init.d/oracle-free-23c configure
 ```
-
-
-## Get Oracle APEX
-
-TODO
-
 
 ## Get Oracle Cloud
 
@@ -123,7 +127,7 @@ After sign up, Oracle should send you a confirmation email such as "You have bee
 
 Oracle Cloud should look something like this:
 
-<img src="assets/images/oracle-cloud-screenshot.png">
+<img loading="lazy" src="assets/images/screenshots/oracle-cloud.png">
 
 
 ## Get Oracle Support
@@ -135,4 +139,65 @@ After you sign up, Oracle should send you a confirmation email such as "You have
 
 Oracle Support should show a "Settings" tab something like this:
 
-<img src="assets/images/oracle-support-settings-screenshot.png">
+<img loading="lazy" src="assets/images/screenshots/oracle-support-settings.png">
+
+
+## Deploy a low-code app on Autonomous Database using APEX
+
+[Link](https://cloud.oracle.com/resourcemanager/quickstarts?solution-name=apex)
+
+Select your compartment. 
+
+* We use: "joelparkerhenderson (root) / ManagedCompartment for PaaS"
+
+* A compartment is a collection of related resources that can be accessed only by certain groups that have been given permission by an administrator in your organization. Learn more about compartments with our Setting up your tenancy guide.
+
+Choose a Database ADMIN password.
+
+* We create a secure random password such as "@9b~I=`l*=SF$exY".
+
+* Check "Enable support for Oracle database client connectivity (SQL*NET)"
+
+* Click "Start Deployment".
+
+When the process completes:
+
+* You should be able to see the new APEX database:<br>https://cloud.oracle.com/db/adb
+
+* You should receive a confirmation email such as: "A new Autonomous Database for Transaction Processing was just provisioned in your tenancy. It is called DB91532 and was successfully provisioned in the us-ashburn-1 data center with 1 OCPU and 1 TB of usable database storage. You can log in using the database admin username/password you entered during database provisioning."
+
+
+### Autonomous databases (screenshot)
+
+<img loading="lazy" src="assets/images/screenshots/autonomous-databases.png" alt="Screenshots / autonomous databases">
+
+
+### Autonomous database details (screenshot)
+
+<img loading="lazy" src="assets/images/screenshots/autonomous-database-details.png" alt="Screenshots / autonomous database details">
+
+
+### APEX instance details (screenshot)
+
+<img loading="lazy" src="assets/images/screenshots/apex-instance-details.png" alt="Screenshots / APEX instance details">
+
+
+### APEX setup: Welcome to APEX (screenshot)
+
+<img loading="lazy" src="assets/images/screenshots/apex-setup/welcome-to-oracle-apex.png" alt="Screenshots / APEX setup / Welcome to APEX">
+
+
+### APEX setup: Create Workspace (screenshot)
+
+<img loading="lazy" src="assets/images/screenshots/apex-setup/create-workspace.png" alt="Screenshots / APEX setup / Create Workspace">
+
+* Workspace Name. Enter a name for the workspace. A workspace is a shared work area where multiple developers can build applications. For this demo, we type "demo-workspace-name".
+
+* Workspace Username. Enter the username of the workspace administrator. For this demo, we type "demo-workspace-username". 
+
+* Workspace Password. Enter a password for the workspace administrator. For this demo, we type a secure random ASCII alphanumeric password, maximum length 30, such as "0bYUV92lOTfy9Ff3Wv8iNHy7ms7PcO".
+
+
+### APEX setup: Administration Services
+
+<img loading="lazy" src="assets/images/screenshots/apex-setup/create-workspace.png" alt="Screenshots / APEX setup / Administration Services">
