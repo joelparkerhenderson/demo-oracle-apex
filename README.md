@@ -203,3 +203,8 @@ When the process completes:
 ### APEX setup: Administration Services
 
 <img loading="lazy" src="assets/images/screenshots/apex-setup/administration-services.png" alt="Screenshots / APEX setup / Administration Services">
+
+
+### APEX setup: Home Page
+
+<img loading="lazy" src="assets/images/screenshots/apex-setup/home.png" alt="Screenshots / APEX setup / Home Page">
